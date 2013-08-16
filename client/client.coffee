@@ -20,13 +20,25 @@ $(document).ready ->
     paragraph_number = $("#paragraph_count").val()
     words = []
     words_all = [
-      "It's not Lent stoonad. Calzone with proshoot' and mooozarell'.", 
-      "let's goomba ipsum some paesans. capeesh?", 
-      "perfecto tony. calzone tomorrow or you having the fish?", 
-      "Corleone fettucini Capone"
+      "It's not Lent stoonad. Calzone with proshoot' and mooozarell'", 
+      "let's goomba ipsum some paesans", 
+      "perfecto",
+      "calzone",
+      "you having the fish" 
+      "Corleone fettucini Capone",
+      "Gambino",
+      "Brooklyn",
+      "seven fishes",
+      "forgetaboutit",
+      "Tony",
+      "funny how"
+      "wise guy",
+      "capeesh",
+      "tough guy"
+
     ]
     words = words_all
-    sentence_number = Math.floor((Math.random() + 4) * 2)
+    sentence_number = Math.floor((Math.random() + 1) * 2)
     
     #Start the first FOR loop that builds sentences from words
     z = 0

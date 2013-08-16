@@ -7,18 +7,24 @@
     <h1>Goomba Ipsum</h1>
   </header>
   {{> goomba }}
+  <footer>
+    <p>Built with <a href="http://www.meteor.com/">Meteor</a> and thanks to <a href="https://github.com/meowist/flatiron-ipsum">flatiron-ipsum</a>
+  </footer>
 </body>
 
 <template name="goomba">
-
+<article>
 <p>How much nonsense would you like?</p>
 
 <form id="ipsum-form" action="#" method="post">
   Paragraphs: <input id="paragraph_count" style="width: 25px;" type="text" maxlength="2" /><br>
-  <input type="submit" id="submit" value="Submit" />
+  <input type="submit" id="submit" value="Do it" />
 </form>
+</article>
 
+<article>
 <div id="print-paragraphs"></div>
+</article>
 
 </template>
 
