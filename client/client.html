@@ -1,0 +1,22 @@
+<head>
+  <title>Goomba Ipsum</title>
+</head>
+
+<body>
+  <h1>Goomba Ipsum</h1>
+  {{> goomba }}
+</body>
+
+<template name="goomba">
+
+<p>How much nonsense would you like?</p>
+
+<form id="ipsum-form" action="#" method="post">
+  Paragraphs: <input id="paragraph_count" style="width: 25px;" type="text" maxlength="2" /><br>
+  <input type="submit" id="submit" value="Submit" />
+</form>
+
+<div id="print-paragraphs"></div>
+
+</template>
+
