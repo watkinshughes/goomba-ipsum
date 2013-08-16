@@ -19,7 +19,12 @@ $(document).ready ->
     # chosen_button = $("#ipsum-form input[name='choice']:checked").val()
     paragraph_number = $("#paragraph_count").val()
     words = []
-    words_all = ["It's not Lent stoonad. Calzone with proshoot' and mooozarell'.", "let's goomba ipsum some paesans. capeesh?", "perfecto tony. calzone tomorrow or you having the fish?", "Corleone fettucini Capone"]
+    words_all = [
+      "It's not Lent stoonad. Calzone with proshoot' and mooozarell'.", 
+      "let's goomba ipsum some paesans. capeesh?", 
+      "perfecto tony. calzone tomorrow or you having the fish?", 
+      "Corleone fettucini Capone"
+    ]
     words = words_all
     sentence_number = Math.floor((Math.random() + 4) * 2)
     
