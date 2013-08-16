@@ -34,7 +34,10 @@ $(document).ready ->
       "funny how"
       "wise guy",
       "capeesh",
-      "tough guy"
+      "ya heard me",
+      "you're a good kid",
+      "hey you",
+      "Eh"
 
     ]
     words = words_all
